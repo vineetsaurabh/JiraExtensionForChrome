@@ -1,0 +1,51 @@
+body {
+	font-family: sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	background-color: #66c2ff;
+	margin: auto;
+	width: 220px;
+}
+div.findIssue {
+	padding: 5px;
+	display: inline-block;
+}
+input#jiraIssue {
+	margin-left: 5px;
+	width: 150px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border: 2px solid #007399;
+	padding: 4px;
+	float: left;
+}
+input.button {
+	width: 32px;
+	height: 32px;
+	float: right;
+	margin-left: 6px;
+}
+
+div.myOpenIssue {
+	padding: 5px;
+	display: inline-block;
+}
+#jiraDropDown {
+	margin-left: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border: 2px solid #007399;
+	padding: 4px;
+	size: 10px;
+	font-size: 15px;
+	width: 160px;
+}
+
+.errorAlert {
+	background: #dd5151;
+}
+
+/* 
+Technia logo color - #07B5DA
+Jira Color - #003366
+*/

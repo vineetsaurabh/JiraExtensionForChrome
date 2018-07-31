@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="popup.css">
+        <script src="popup.js"></script>
+    </head>
+    <body id="body" class="body">
+        <div class="window">
+            <form id="runner">
+                <div class="findIssue">
+                    <input type="text" id="jiraIssue" name="jiraIssue" size="80" placeholder="TVC-XXXX"/>
+					<input class="button"  type="image" id="search" src="search.png" name="open" title="Open" alt="Open"/>
+                </div>
+                <div class="myOpenIssue">
+                    <select id="jiraDropDown">
+                        <Option>My Open Issues</Option>
+                    </select>
+					<input class="button" type="image" id="dashboard" src="home.png" name="dashboard" title="Dashboard" alt="Dashboard" onclick="openMyDashboard()"/>
+                </div>
+            </form>
+        </div>
+    </body>
+</html>
+
+

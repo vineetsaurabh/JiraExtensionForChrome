@@ -1,0 +1,15 @@
+{
+    "manifest_version": 2,
+    "name": "TechniaTranscat Jira Extension",
+    "description": "Manage your Jira tickets",
+    "version": "0.4",
+    "browser_action": {
+        "default_icon": "technia_jira.png",
+        "default_popup": "popup.html"
+    },
+    "permissions": [
+        "storage",
+        "activeTab",
+        "https://technia.jira.com/"
+    ]
+}
